@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://zhuguanyu.github.io/fundamental_of_network
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: CSE534 Fundamental of Network Project
+subtitle: Real-time measurement for mailing list outage
+author: Guanyu Zhu, Wei-Ting Lin, Zhaowei Sun
 simple_search: https://www.google.com/search
-description:
+description: 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,20 +19,26 @@ date_format: "ordinal"
 subscribe_rss: /fundamental_of_network/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: zhuguanyu2010@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /fundamental_of_network
+root: /fundamental_of_network/
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public/fundamental_of_network
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
+#markdown: kramdown
+#kramdown:
+#    use_coderay: true
+#    coderay:
+#        coderay_line_numbers: table
+#        coderay_css: class
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -64,14 +70,11 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: ZhuGuanyu
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
-# Twitter
-twitter_user:
-twitter_tweet_button: true
 
 # Google +1
 google_plus_one: false
@@ -91,7 +94,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: cse534fundamentalofnetworkproject
 disqus_show_comment_count: false
 
 # Google Analytics
